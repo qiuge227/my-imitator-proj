@@ -14,3 +14,4 @@
 ###启动服务
 
 	imitator
+ //imitator -p 8888 -f /Users/mac/zhangbaige/beth/fis3/initator-test/Imitatorfile.js 
