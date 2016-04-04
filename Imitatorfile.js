@@ -11,4 +11,16 @@ module.exports = function(imitator){
 	url: /\/\d{1,3}/,
 	result: {name: 'sjkdjfk'}
   });
+
+  imitator({
+ 	url: '/test',
+	result: function(req, res){
+		if(req.param.name === 'hanan'){
+			res.send('hahahaha');
+		}
+		else {
+			res.send('lalalala');
+		}
+	}
+  });
 }
